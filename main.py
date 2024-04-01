@@ -82,10 +82,9 @@ window.title("Password Manager")
 # window.geometry("240x240")
 window.config(padx=50, pady=50)
 
-# label1 = Label(window)
-# label1.grid(row=0, column=0)
 
-# label2 = Label(window, text="Website:", font=("Arial", 9 ,"normal"), width=10)
+
+
 label2 = Label(window, text="Website:")
 label2.grid(row=1, column=0)
 
