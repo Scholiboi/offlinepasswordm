@@ -97,7 +97,7 @@ label4 = Label(window, text="Password:")
 label4.grid(row=3, column=0)
 
 canvas = Canvas(window, width=200, height=200)
-password_lock_img = PhotoImage(file="C:/Users/SY/OneDrive/VSC Files Python/pycharm projects/passwordmanager/logo.png")
+password_lock_img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=password_lock_img)
 canvas.grid(row=0, column=1)
 
